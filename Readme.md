@@ -60,17 +60,17 @@ I have created a list of commands to facilitate learning and demonstrate various
 ./vendor/bin/phpcs --standard=PHPCompatibility --extensions=php --runtime-set testVersion 7 --ignore=*/tests/*,*/vendor/* /var/www/project/testes/PHPCompability/
 ```
 
-* Running with version 7, just with "php" extension, ignoring the folders 'tests' and 'vendor' and exporting to text file.
+* Running with version 5.3, just with "php" extension, ignoring the folders 'tests' and 'vendor' and exporting to text file.
 ```
 ./vendor/bin/phpcs --standard=PHPCompatibility --extensions=php --runtime-set testVersion 5.3 --ignore=*/tests/*,*/vendor/* /var/www/project/testes/PHPCompability/ > teste.txt
 ```
 
-* Running with version 7, just with "php" extension, ignoring the folders 'tests' and 'vendor' and ignoring "Warning".
+* Running with version 5.3, just with "php" extension, ignoring the folders 'tests' and 'vendor' and ignoring "Warning".
 ```
 ./vendor/bin/phpcs --standard=PHPCompatibility --extensions=php -n --runtime-set testVersion 5.3 --ignore=*/tests/*,*/vendor/* /var/www/project/testes/PHPCompability/
 ```
 
-* Running with version 7, just with "php" extension, ignoring the folders 'tests' and 'vendor, exporting to text file and ignoring "Warning".
+* Running with version 5.3, just with "php" extension, ignoring the folders 'tests' and 'vendor, exporting to text file and ignoring "Warning".
 ```
 ./vendor/bin/phpcs --standard=PHPCompatibility --extensions=php -n --runtime-set testVersion 5.3 --ignore=*/tests/*,*/vendor/* --report-file=teste.txt /var/www/project/testes/PHPCompability/
 ```
